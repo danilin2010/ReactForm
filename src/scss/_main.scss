@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+.regform
+{
+  font-family: $font-Sans;
+  padding: 15px 15px;
+  max-width: 370px;
+  h1{
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    margin-bottom: 45px;
+    b{
+      font-weight: 600;
+    }
+  }
+  label {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    margin-bottom: 11px;
+  }
+
+  &__col
+  {
+    display: inline-block;
+    width: 49%;
+    margin-right: 2%;
+    &:last-child{
+      margin-right:0%;
+    }
+  }
+
+  &__line
+  {
+    text-align: center;
+    margin-bottom: 25px;
+    &:last-child{
+      margin-bottom:0px;
+    }
+  }
+
+
+}
